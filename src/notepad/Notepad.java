@@ -172,7 +172,7 @@ public class Notepad extends JFrame implements ActionListener{
         }else if(ae.getActionCommand().equals("Select All"))
             textArea.selectAll();
         else if(ae.getActionCommand().equals("About")){
-            
+            new About().setVisible(true);
         }
     }
     public static void main(String[] args) {
